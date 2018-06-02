@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+}
+
+/* Background image of the psychic robot is the main background. */
+.backgroundImage {
+    background-image: url('/Users/daily/bootcamp/Psychic-Game/Assets/Images/psychicGameImage.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+/* The area of the page where the black text is displayed is overlayed
+with a semi-transparent background color to make the text more legible
+in the areas where it may blend with the background image.  */
+body {
+    background-color: white;
+    opacity: 0.5;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+/* Text that displays information to the usesr is underlined. */
+#wins {
+    text-decoration: underline;
+}
+
+#losses {
+    text-decoration: underline;
+}
+
+#guessesLeft {
+    text-decoration: underline;
+}
+
+#guessesSoFar {
+    text-decoration: underline;
+}
